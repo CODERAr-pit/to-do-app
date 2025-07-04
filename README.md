@@ -1,16 +1,55 @@
-<<<<<<< HEAD
-# React + Vite
+# 📝 To-Do App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive To-Do list web app built using **React**.  
+It allows users to add, edit, delete, and mark tasks as completed. All data is stored in **localStorage**, so your tasks persist even after reloading the page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new tasks
+- ✅ Edit existing tasks
+- ✅ Delete tasks
+- ✅ Mark tasks as complete (with line-through effect)
+- ✅ Data is saved in browser's `localStorage`
+- ✅ Responsive and user-friendly UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# to-do-app
->>>>>>> 6b3b6ea3f76a8f5b15ccb4beb3e781c0930956a6
+---
+
+## 🧑‍💻 Tech Stack
+
+- ⚛️ React (with Hooks)
+- 🎨 Tailwind CSS (or your styling framework)
+- 💾 localStorage for persistence
+
+---
+
+## 📂 Folder Structure
+vite-project/
+├── public/
+├── src/
+│ ├── components/
+│ │ └── Navbar.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── main.jsx
+├── package.json
+└── README.md
+
+## 🛠️ How to Run Locally
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/CODERAr-pit/to-do-app.git
+Navigate to the project folder:
+Bash:-
+cd to-do-app
+Install dependencies:
+npm install
+Run the app:
+npm run dev
+Open in browser:
+Visit http://localhost:5173 to view the app.
+
+
+Made with ❤️ by Arpit Kumar Jha NIT DURGAPUR CSE
